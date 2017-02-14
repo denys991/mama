@@ -1,0 +1,126 @@
+header {
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    text-align: center;
+    border-bottom: 2px solid #ff6c14;
+}
+
+header p {
+    padding-bottom: 80px;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+header h1 {
+    padding-bottom: 27px;
+    font-size: 66px;
+    color: #ffffff;
+}
+
+header span {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#button {
+    padding: 15px 67px;
+    width: 216px;
+    background-color: #ff6c14;
+    border-radius: 27px;
+    border: none;
+    margin: 95px auto -25px;
+}
+
+#button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20.7px;
+}
+
+/****************************************CONTENT**********************************/
+
+.contennt { text-align: center; }
+
+.contennt p {
+    margin: 75px 0 43px 0;
+    font-size: 36px;
+    color: #898989;
+}
+
+.contennt li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.contennt li img {
+    width: 250px;
+}
+
+/*******************************************DOWNLOAD*****************************/
+
+.download {
+    margin-top: 70px;
+    padding: 45px;
+    background-color: #ff6c14;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.download span {
+    margin-left: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.download a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.download i { font-size: 40px;}
+
+/****************************************FOOTER***************************************/
+footer {
+    padding: 37px 250px ;
+    background-color: #211F20;
+}
+
+footer .nav {
+    float: left;
+    padding: 13px 0;
+}
+
+footer .nav li {
+    display: inline-block;
+    padding-right: 17px;
+}
+
+footer .nav li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #7a7979;
+}
+
+footer .icon {
+    float: right;
+    list-style: none;
+    font-size: 40px;
+}
+
+footer .icon li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+footer .icon li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .icon li:last-of-type {
+    margin-right: 0;
+}
